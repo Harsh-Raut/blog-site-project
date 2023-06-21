@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="E:\Course+6+Project+Stub+-+Scribbler\styles\common.css">
+</head>
+
+<body background="E:\Course+6+Project+Stub+-+Scribbler\images\background.jpg">
+    <!-- TODO: Include all your code for the header and home page here -->
+    <header id="header1">ScriBBler
+         </header>
+    <header id="header2">Explore, Imagine, Create</header>
+    <button id="signup-btn" onclick="openModal()">Sign up</button>
+    <div id="myModal" class="modal">
+        
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Get Started</h2>
+            <hr>
+            <form class="form">
+                <label for="Name"  class="label-item"> Name</label>
+                <input type="text" id="firstname" placeholder="Enter your name"required>
+                <label for="Username" class="label-item">Username</label>
+                <input type="text" id="lastname" placeholder="Enter your username"required>
+                <label for="Password" class="label-item">Password</label>
+                <input type="Password" id="password" placeholder="Enter your password"required>
+                <label for="Password" class="label-item">Confirm Password</label>
+                <input type="Password" id="password" placeholder="Re-enter your password"required>
+                <button id="signup">Sign Up</button>
+            </form>
+        </div>
+        
+    </div>
+    <button id="signin-btn" onclick="openModal1()">Sign In</button>
+    <div id="myModal1" class="modal1">
+        
+        <!-- Modal content -->
+        <div class="modal-content1">
+            <span class="close1">&times;</span>
+            <h2>Welcome Back!</h2>
+            <hr>
+            <form class="form1">
+                <label for="Username" class="label-item">Username</label>
+                <input type="text" id="lastname" placeholder="Enter your username"required>
+                <label for="Password" class="label-item">Password</label>
+                <input type="Password" id="password" placeholder="Enter your password"required>
+                <button id="signin">Sign in</button>
+                <h3>Not a member?<a onclick="openModal()">Sign Up</a></h3>
+            </form>
+        </div>
+        
+    </div>
+    <div id="post-btn">
+        <a href="E:\Course+6+Project+Stub+-+Scribbler\html\postslist.html"><button id="btn-1">All Posts</button>></a>
+        <button id="btn-2">Create Post</button>
+    </div>
+
+    <script src="E:\Course+6+Project+Stub+-+Scribbler\script\common.js"></script>    
+</body>
+
+</html>
